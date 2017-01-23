@@ -1,0 +1,66 @@
+/*
+
+Railroad Diagram Generator:
+
+http://railroad.my28msec.com/rr/ui
+
+ */
+
+letter ::= [A-Z] | [a-z]
+
+digit ::= [0-9]
+
+identifier ::= (letter)(letter|digit)*
+
+integer ::= digit+
+
+real ::= digit* '.' digit+ (('+' | '-') ('E' | 'e'))
+
+string ::= '"' (character)* '"'
+
+/* character ::= */
+
+factor ::= '!' | identifier | integer | real | string | character | '(' expression ')' 
+
+term ::= factor ( ( '*' | '/' | '%' | '&&' ) factor )*
+
+simpleexp ::= ( '+' | '-' ) term ( ( '||' | '+' | '-' ) term )*
+
+expression ::= simpleexp ( ( '<' | '>' | '<=' | '>=' | '==' | '!=' ) simpleexp )*
+
+statement ::= compoundstmt
+            | assignmentstmt ';' 
+            | ifstmt
+            | whilestmt
+            | functioncall ';'
+            | returnstmt ';'
+
+statementlist ::= statement*
+
+compoundstmt ::= '{' (advancedvardecl)* statementlist '}'
+
+assignmentstmt ::= identifier '=' expression
+
+ifstmt ::= 'if' '(' expression ')' statement ( 'else' statement )?
+
+whilestmt ::= 'while' '(' expression ')' statement 
+
+functioncall ::= identifier '(' expression* ')'
+
+returnstmt ::= 'return' expression
+
+type ::= ('char' | 'int' | 'float') 
+
+returntype ::= 'void' | type
+
+simplevardecl ::= type identifier
+
+advancedvardecl ::= type identifier ('=' expression)? (',' identifier ('=' expression)? )* 
+
+argumentlist ::= ( simplevardecl (',' simplevardecl )* ) ?
+
+functionforward ::= returntype identifier '(' argumentlist ')' ';'
+
+function ::= returntype identifier '(' argumentlist ')' compoundstmt
+
+program ::= (advancedvardecl ';' | functionforward | function)* function

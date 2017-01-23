@@ -1,0 +1,725 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.4" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true">  
+  <class id="1" language="java" name="wci.frontend.sc.SCParserTD" project="bmwcompiler" 
+    file="/bmwcompiler/src/wci/frontend/sc/SCParserTD.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="470" y="-217"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="2" language="java" name="wci.frontend.sc.SCTokenType" project="bmwcompiler" 
+    file="/bmwcompiler/src/wci/frontend/sc/SCTokenType.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="844" y="949"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="3" language="java" name="wci.frontend.sc.SCScanner" project="bmwcompiler" 
+    file="/bmwcompiler/src/wci/frontend/sc/SCScanner.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="616" y="734"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="wci.frontend.sc.SCErrorHandler" project="bmwcompiler" 
+    file="/bmwcompiler/src/wci/frontend/sc/SCErrorHandler.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="469" y="-484"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="5" language="java" name="wci.frontend.sc.SCErrorCode" project="bmwcompiler" 
+    file="/bmwcompiler/src/wci/frontend/sc/SCErrorCode.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1154" y="-378"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="6" language="java" name="wci.frontend.sc.SCToken" project="bmwcompiler" 
+    file="/bmwcompiler/src/wci/frontend/sc/SCToken.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1432" y="1406"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="wci.frontend.sc.parsers.ExpressionParser" project="bmwcompiler" 
+    file="/bmwcompiler/src/wci/frontend/sc/parsers/ExpressionParser.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="839" y="461"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="wci.frontend.sc.parsers.SimpleVarDeclParser" project="bmwcompiler" 
+    file="/bmwcompiler/src/wci/frontend/sc/parsers/SimpleVarDeclParser.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="187" y="444"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="wci.frontend.sc.parsers.WhileStatementParser" project="bmwcompiler" 
+    file="/bmwcompiler/src/wci/frontend/sc/parsers/WhileStatementParser.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1154" y="398"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="wci.frontend.sc.parsers.AssignmentStatementParser" project="bmwcompiler" 
+    file="/bmwcompiler/src/wci/frontend/sc/parsers/AssignmentStatementParser.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1419" y="425"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="wci.frontend.sc.parsers.IfStatementParser" project="bmwcompiler" 
+    file="/bmwcompiler/src/wci/frontend/sc/parsers/IfStatementParser.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1676" y="398"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="wci.frontend.sc.parsers.StatementParser" project="bmwcompiler" 
+    file="/bmwcompiler/src/wci/frontend/sc/parsers/StatementParser.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="469" y="149"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="wci.frontend.sc.parsers.FunctionParser" project="bmwcompiler" 
+    file="/bmwcompiler/src/wci/frontend/sc/parsers/FunctionParser.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="-244" y="446"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="wci.frontend.sc.parsers.CallParser" project="bmwcompiler" 
+    file="/bmwcompiler/src/wci/frontend/sc/parsers/CallParser.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2031" y="524"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="wci.frontend.sc.parsers.ProgramParser" project="bmwcompiler" 
+    file="/bmwcompiler/src/wci/frontend/sc/parsers/ProgramParser.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="-501" y="-218"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="16" language="java" name="wci.frontend.sc.parsers.CompoundStatementParser" project="bmwcompiler" 
+    file="/bmwcompiler/src/wci/frontend/sc/parsers/CompoundStatementParser.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2390" y="398"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="17" language="java" name="wci.frontend.Token" project="bmwcompiler" 
+    file="/bmwcompiler/src/wci/frontend/Token.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="845" y="1406"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="18" language="java" name="wci.frontend.sc.tokens.SCSpecialSymbolToken" project="bmwcompiler" 
+    file="/bmwcompiler/src/wci/frontend/sc/tokens/SCSpecialSymbolToken.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1093" y="1714"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="19" language="java" name="wci.frontend.sc.tokens.SCWordToken" project="bmwcompiler" 
+    file="/bmwcompiler/src/wci/frontend/sc/tokens/SCWordToken.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1266" y="1714"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="20" language="java" name="wci.frontend.sc.tokens.SCErrorToken" project="bmwcompiler" 
+    file="/bmwcompiler/src/wci/frontend/sc/tokens/SCErrorToken.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1641" y="1717"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="21" language="java" name="wci.frontend.sc.tokens.SCCharacterToken" project="bmwcompiler" 
+    file="/bmwcompiler/src/wci/frontend/sc/tokens/SCCharacterToken.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1431" y="1716"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="22" language="java" name="wci.frontend.sc.tokens.SCNumberToken" project="bmwcompiler" 
+    file="/bmwcompiler/src/wci/frontend/sc/tokens/SCNumberToken.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1903" y="1762"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="23" language="java" name="wci.frontend.sc.tokens.SCStringToken" project="bmwcompiler" 
+    file="/bmwcompiler/src/wci/frontend/sc/tokens/SCStringToken.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2121" y="1716"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="24" language="java" name="wci.frontend.FrontendFactory" project="bmwcompiler" 
+    file="/bmwcompiler/src/wci/frontend/FrontendFactory.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="248" y="1101"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="25" language="java" name="wci.frontend.Source" project="bmwcompiler" 
+    file="/bmwcompiler/src/wci/frontend/Source.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="844" y="2038"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="26" language="java" name="wci.frontend.EofToken" project="bmwcompiler" 
+    file="/bmwcompiler/src/wci/frontend/EofToken.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1282" y="1210"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="27" language="java" name="wci.frontend.TokenType" project="bmwcompiler" 
+    file="/bmwcompiler/src/wci/frontend/TokenType.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="844" y="1109"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="28" language="java" name="wci.frontend.Scanner" project="bmwcompiler" 
+    file="/bmwcompiler/src/wci/frontend/Scanner.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="615" y="1406"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="29" language="java" name="wci.frontend.Parser" project="bmwcompiler" 
+    file="/bmwcompiler/src/wci/frontend/Parser.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="247" y="1406"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <generalization id="30">    
+    <bendpoint x="-244" y="-217"/>    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <association id="31">    
+    <bendpoint x="1078" y="460"/>    
+    <bendpoint x="1077" y="949"/>    
+    <end type="SOURCE" refId="7" navigable="false">      
+      <attribute id="32" name="REL_OPS">        
+        <position height="18" width="54" x="1017" y="587"/>      
+      </attribute>      
+      <multiplicity id="33" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="false"/>  
+  </association>  
+  <dependency id="34">    
+    <bendpoint x="2259" y="397"/>    
+    <bendpoint x="2259" y="13"/>    
+    <bendpoint x="1154" y="13"/>    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <dependency id="35">    
+    <bendpoint x="-501" y="-597"/>    
+    <bendpoint x="1154" y="-595"/>    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <association id="36">    
+    <bendpoint x="-244" y="949"/>    
+    <end type="SOURCE" refId="13" navigable="false">      
+      <attribute id="37" name="FUNCTION_START_SET">        
+        <position height="18" width="124" x="-236" y="679"/>      
+      </attribute>      
+      <multiplicity id="38" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="false"/>  
+  </association>  
+  <dependency id="39">    
+    <bendpoint x="470" y="15"/>    
+    <bendpoint x="1153" y="13"/>    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <generalization id="40">    
+    <bendpoint x="2122" y="1607"/>    
+    <bendpoint x="1432" y="1607"/>    
+    <end type="SOURCE" refId="23"/>    
+    <end type="TARGET" refId="6"/>  
+  </generalization>  
+  <association id="41">    
+    <bendpoint x="616" y="1673"/>    
+    <bendpoint x="845" y="1673"/>    
+    <end type="SOURCE" refId="28" navigable="false">      
+      <attribute id="42" name="source">        
+        <position height="18" width="44" x="561" y="1585"/>      
+      </attribute>      
+      <multiplicity id="43" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="25" navigable="true"/>    
+    <display labels="true" multiplicity="false"/>  
+  </association>  
+  <generalization id="44">    
+    <bendpoint x="1677" y="150"/>    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="12"/>  
+  </generalization>  
+  <generalization id="45">    
+    <bendpoint x="1094" y="1607"/>    
+    <bendpoint x="1432" y="1607"/>    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="6"/>  
+  </generalization>  
+  <association id="46">    
+    <end type="SOURCE" refId="13" navigable="false">      
+      <attribute id="47" name="varParser"/>      
+      <multiplicity id="48" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="false"/>  
+  </association>  
+  <association id="49">    
+    <bendpoint x="1155" y="949"/>    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="50" name="WHILE_SET">        
+        <position height="18" width="64" x="1079" y="637"/>      
+      </attribute>      
+      <multiplicity id="51" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="false"/>  
+  </association>  
+  <association id="52">    
+    <bendpoint x="2390" y="949"/>    
+    <end type="SOURCE" refId="16" navigable="false">      
+      <attribute id="53" name="DECL_FOLLOW_SET">        
+        <position height="18" width="111" x="2281" y="791"/>      
+      </attribute>      
+      <multiplicity id="54" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="false"/>  
+  </association>  
+  <association id="55">    
+    <bendpoint x="2390" y="949"/>    
+    <end type="SOURCE" refId="16" navigable="false">      
+      <attribute id="56" name="DECLARATION_START_SET">        
+        <position height="18" width="143" x="2249" y="833"/>      
+      </attribute>      
+      <multiplicity id="57" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="false"/>  
+  </association>  
+  <association id="58">    
+    <bendpoint x="1677" y="949"/>    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="59" name="AFTER_IF_SET">        
+        <position height="18" width="80" x="1596" y="696"/>      
+      </attribute>      
+      <multiplicity id="60" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="false"/>  
+  </association>  
+  <association id="61">    
+    <bendpoint x="1078" y="460"/>    
+    <bendpoint x="1077" y="949"/>    
+    <end type="SOURCE" refId="7" navigable="false">      
+      <attribute id="62" name="ADD_OPS">        
+        <position height="18" width="57" x="1013" y="653"/>      
+      </attribute>      
+      <multiplicity id="63" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="false"/>  
+  </association>  
+  <generalization id="64">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="17"/>  
+  </generalization>  
+  <generalization id="65">    
+    <bendpoint x="2031" y="150"/>    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="12"/>  
+  </generalization>  
+  <dependency id="66">    
+    <bendpoint x="616" y="444"/>    
+    <bendpoint x="616" y="286"/>    
+    <bendpoint x="738" y="287"/>    
+    <bendpoint x="739" y="15"/>    
+    <bendpoint x="1154" y="13"/>    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <generalization id="67">    
+    <bendpoint x="-676" y="-305"/>    
+    <bendpoint x="-676" y="1406"/>    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="29"/>  
+  </generalization>  
+  <dependency id="68">    
+    <bendpoint x="845" y="735"/>    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <dependency id="69">    
+    <bendpoint x="616" y="286"/>    
+    <bendpoint x="738" y="286"/>    
+    <bendpoint x="738" y="14"/>    
+    <bendpoint x="1152" y="13"/>    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <dependency id="70">    
+    <bendpoint x="1795" y="524"/>    
+    <bendpoint x="1795" y="13"/>    
+    <bendpoint x="1154" y="13"/>    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <association id="71">    
+    <bendpoint x="-244" y="949"/>    
+    <end type="SOURCE" refId="13" navigable="false">      
+      <attribute id="72" name="DECLARATION_FOLLOW_SET">        
+        <position height="18" width="156" x="-237" y="643"/>      
+      </attribute>      
+      <multiplicity id="73" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="false"/>  
+  </association>  
+  <generalization id="74">    
+    <bendpoint x="1641" y="1607"/>    
+    <bendpoint x="1432" y="1607"/>    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="6"/>  
+  </generalization>  
+  <association id="75">    
+    <bendpoint x="470" y="949"/>    
+    <end type="SOURCE" refId="12" navigable="false">      
+      <attribute id="76" name="STMT_FOLLOW_SET">        
+        <position height="18" width="112" x="474" y="539"/>      
+      </attribute>      
+      <multiplicity id="77" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="false"/>  
+  </association>  
+  <association id="78">    
+    <end type="SOURCE" refId="29" navigable="false">      
+      <attribute id="79" name="scanner"/>      
+      <multiplicity id="80" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="28" navigable="true"/>    
+    <display labels="true" multiplicity="false"/>  
+  </association>  
+  <generalization id="81">    
+    <bendpoint x="1419" y="150"/>    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="12"/>  
+  </generalization>  
+  <association id="82">    
+    <bendpoint x="1078" y="460"/>    
+    <bendpoint x="1077" y="949"/>    
+    <end type="SOURCE" refId="7" navigable="false">      
+      <attribute id="83" name="EXPR_START_SET">        
+        <position height="18" width="100" x="975" y="616"/>      
+      </attribute>      
+      <multiplicity id="84" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="false"/>  
+  </association>  
+  <association id="85">    
+    <bendpoint x="-501" y="949"/>    
+    <end type="SOURCE" refId="15" navigable="false">      
+      <attribute id="86" name="TYPE_START_SET">        
+        <position height="18" width="100" x="-623" y="541"/>      
+      </attribute>      
+      <multiplicity id="87" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="false"/>  
+  </association>  
+  <association id="88">    
+    <bendpoint x="1419" y="949"/>    
+    <end type="SOURCE" refId="10" navigable="false">      
+      <attribute id="89" name="EQUALS_SET">        
+        <position height="18" width="75" x="1339" y="702"/>      
+      </attribute>      
+      <multiplicity id="90" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="false"/>  
+  </association>  
+  <dependency id="91">    
+    <bendpoint x="1280" y="424"/>    
+    <bendpoint x="1280" y="13"/>    
+    <bendpoint x="1154" y="12"/>    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <generalization id="92">    
+    <bendpoint x="187" y="-217"/>    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <association id="93">    
+    <bendpoint x="2032" y="949"/>    
+    <end type="SOURCE" refId="14" navigable="false">      
+      <attribute id="94" name="COMMA_SET">        
+        <position height="18" width="72" x="1963" y="812"/>      
+      </attribute>      
+      <multiplicity id="95" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="false"/>  
+  </association>  
+  <dependency id="96">    
+    <bendpoint x="1154" y="-216"/>    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <association id="97">    
+    <bendpoint x="187" y="949"/>    
+    <end type="SOURCE" refId="8" navigable="false">      
+      <attribute id="98" name="DECLARATION_START_SET">        
+        <position height="18" width="145" x="193" y="649"/>      
+      </attribute>      
+      <multiplicity id="99" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="false"/>  
+  </association>  
+  <dependency id="100">    
+    <bendpoint x="1558" y="400"/>    
+    <bendpoint x="1558" y="13"/>    
+    <bendpoint x="1154" y="12"/>    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <generalization id="101">    
+    <bendpoint x="1154" y="150"/>    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="12"/>  
+  </generalization>  
+  <realization id="102">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="27"/>  
+  </realization>  
+  <association id="103">    
+    <end type="SOURCE" refId="17" navigable="false">      
+      <attribute id="104" name="source">        
+        <position height="18" width="44" x="794" y="1594"/>      
+      </attribute>      
+      <multiplicity id="105" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="25" navigable="true"/>    
+    <display labels="true" multiplicity="false"/>  
+  </association>  
+  <generalization id="106">    
+    <bendpoint x="1904" y="1607"/>    
+    <bendpoint x="1432" y="1607"/>    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="6"/>  
+  </generalization>  
+  <association id="107">    
+    <bendpoint x="-501" y="949"/>    
+    <end type="SOURCE" refId="15" navigable="false">      
+      <attribute id="108" name="DECL_FOLLOW_SET">        
+        <position height="18" width="111" x="-631" y="596"/>      
+      </attribute>      
+      <multiplicity id="109" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="false"/>  
+  </association>  
+  <generalization id="110">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <generalization id="111">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <generalization id="112">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="28"/>  
+  </generalization>  
+  <generalization id="113">    
+    <bendpoint x="2390" y="150"/>    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="12"/>  
+  </generalization>  
+  <association id="114">    
+    <end type="SOURCE" refId="28" navigable="false">      
+      <attribute id="115" name="currentToken"/>      
+      <multiplicity id="116" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="17" navigable="true"/>    
+    <display labels="true" multiplicity="false"/>  
+  </association>  
+  <generalization id="117">    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="6"/>  
+  </generalization>  
+  <association id="118">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="119" name="errorHandler"/>      
+      <multiplicity id="120" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="false"/>  
+  </association>  
+  <generalization id="121">    
+    <bendpoint x="839" y="150"/>    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="12"/>  
+  </generalization>  
+  <generalization id="122">    
+    <bendpoint x="1267" y="1607"/>    
+    <bendpoint x="1432" y="1607"/>    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="6"/>  
+  </generalization>  
+  <generalization id="123">    
+    <bendpoint x="1101" y="1211"/>    
+    <bendpoint x="1101" y="1406"/>    
+    <end type="SOURCE" refId="26"/>    
+    <end type="TARGET" refId="17"/>  
+  </generalization>  
+  <dependency id="124">    
+    <bendpoint x="-457" y="447"/>    
+    <bendpoint x="-457" y="285"/>    
+    <bendpoint x="616" y="287"/>    
+    <bendpoint x="738" y="287"/>    
+    <bendpoint x="739" y="14"/>    
+    <bendpoint x="1154" y="13"/>    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <dependency id="125">    
+    <bendpoint x="839" y="14"/>    
+    <bendpoint x="1154" y="14"/>    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <association id="126">    
+    <bendpoint x="470" y="949"/>    
+    <end type="SOURCE" refId="12" navigable="false">      
+      <attribute id="127" name="STMT_START_SET">        
+        <position height="18" width="101" x="474" y="509"/>      
+      </attribute>      
+      <multiplicity id="128" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="false"/>  
+  </association>  
+  <association id="129">    
+    <end type="SOURCE" refId="17" navigable="false">      
+      <attribute id="130" name="type"/>      
+      <multiplicity id="131" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="27" navigable="true"/>    
+    <display labels="true" multiplicity="false"/>  
+  </association>  
+  <dependency id="132">    
+    <bendpoint x="1033" y="396"/>    
+    <bendpoint x="1033" y="13"/>    
+    <bendpoint x="1154" y="13"/>    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <association id="133">    
+    <bendpoint x="1078" y="460"/>    
+    <bendpoint x="1077" y="949"/>    
+    <end type="SOURCE" refId="7" navigable="false">      
+      <attribute id="134" name="MULT_OPS">        
+        <position height="18" width="61" x="1011" y="686"/>      
+      </attribute>      
+      <multiplicity id="135" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="false"/>  
+  </association>  
+  <dependency id="136">    
+    <bendpoint x="1154" y="-484"/>    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="false"/>
+</class-diagram>
